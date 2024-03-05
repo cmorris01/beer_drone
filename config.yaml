@@ -1,0 +1,7 @@
+path: /Users/coymorris/Desktop/beer_detector/YOLOv8_dataset # dataset root dir
+train: images/train # relative path
+val: images/val # relative path
+
+# Classes
+names:
+    0: beer
