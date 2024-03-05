@@ -63,8 +63,8 @@ class Detection:
         self.start_webcam()
         self.perform_detection()
 
-def main():
-    # Define the path to the model
+if __name__ == "__main__":
+        # Define the path to the model
     model_path = '/Users/coymorris/Desktop/beer_detector/trained_models/yolov8m_v1.pt'
 
     # Create an instance of the Detection class
@@ -72,6 +72,3 @@ def main():
 
     # Run the detection
     detection.run()
-
-if __name__ == "__main__":
-    main()
