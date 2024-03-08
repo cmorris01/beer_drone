@@ -65,7 +65,7 @@ class Detection:
 
 if __name__ == "__main__":
         # Define the path to the model
-    model_path = '/Users/coymorris/Desktop/beer_detector/trained_models/yolov8m_v1.pt'
+    model_path = '/Users/coymorris/Desktop/beer_drone/experiments/exp1/best.pt'
 
     # Create an instance of the Detection class
     detection = Detection(model_path)

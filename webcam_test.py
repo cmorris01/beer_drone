@@ -5,7 +5,7 @@ from ultralytics import YOLO
 import math
 
 # load model
-model = YOLO('/Users/coymorris/Desktop/beer_detector/trained_models/yolov8m_v1.pt')
+model = YOLO('/Users/coymorris/Desktop/beer_drone/experiments/exp1/best.pt')
 
 # start webcam and set resolution
 cap = cv2.VideoCapture(0)
